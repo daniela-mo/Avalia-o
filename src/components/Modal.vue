@@ -1,18 +1,19 @@
 <template>
-  <div class="modal-all">
-    <div class="modal-all__content">
+  <div class="modal-global">
+    <div class="modal-global__content">
       <slot />
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.modal-all {
-  background: rgb(15, 15, 15, 0.15);
+.modal-global {
+  background: rgba(15, 15, 15, 0.15);
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
+  position: fixed;
   justify-content: center;
   &__content {
     width: 544px;

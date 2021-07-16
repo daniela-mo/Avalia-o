@@ -1,3 +1,11 @@
 {
-  "alunos": []
+  "alunos": [
+    {
+      "nome": "teste",
+      "email": "tes@teste.com'",
+      "skills": "teste",
+      "foto": "testes",
+      "id": 1
+    }
+  ]
 }

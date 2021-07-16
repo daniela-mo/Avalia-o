@@ -5,6 +5,11 @@
 </template>
 
 <style lang="scss">
+html,
+body,
+#app {
+  background: #e5e5e5;
+}
 *,
 *::before,
 *::after {
@@ -12,11 +17,5 @@
   padding: 0;
   font-family: Poppins, sans-serif;
   box-sizing: border-box;
-}
-
-html,
-body,
-#app {
-  background: #e5e5e5;
 }
 </style>
